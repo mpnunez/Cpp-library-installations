@@ -1,0 +1,5 @@
+[requires]
+mongo-cxx-driver/3.10.2
+[generators]
+CMakeDeps
+CMakeToolchain
