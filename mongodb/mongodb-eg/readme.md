@@ -1,8 +1,15 @@
 # MongoDB C++ Library example
 
-## Build with conan
+## Method 1: Build with conan
 
 1. Install `conan` package manager
 2. Create a `uri.txt` file in this directory with the URI of your MongoDB server
 3. Run `build.sh`
-4. Run `./build/cmongodb`
+4. Run program with `./build/cmongodb`
+
+## Method 2: Install the library in /usr/local
+
+1. Install following [instructions](https://www.mongodb.com/docs/languages/cpp/cpp-driver/current/installation/linux/#std-label-cpp-installation-linux)
+2. Configure install prefix?
+3. Build with `make`
+4. Run `./mongodb-eg`
